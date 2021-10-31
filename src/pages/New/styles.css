@@ -1,0 +1,25 @@
+.content form label span{
+    font-size: 12;
+    font-weight: normal;
+    color: #999;
+}
+
+label#thumbnail {
+    margin-bottom: 20px;
+    border: 1px dashed #ddd;
+    background-size: cover;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+label#thumbnail input{
+    display: none;
+}
+label#thumbnail.has-thumbnail{
+    border: 0;
+}
+label#thumbnail.has-thumbnail img{
+    display: none;
+}
